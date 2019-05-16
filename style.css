@@ -50,6 +50,7 @@ header img{
     background: #fff;
     width: 15%;
     height: 40px;
+    
 }
 
 button
@@ -94,9 +95,18 @@ h3,h2
 #main-section-btn
 {
     margin-top: 4%;
+    transition:all 0.5s;
     background-color: hsl(322, 100%, 66%);
     color: #fff;
     padding: 15px 50px 15px;
+    box-shadow: 1px 1px 5px 2px rgb(255, 126, 236);
+}
+
+#main-section-btn:hover,.footer-btn:hover
+{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 2px rgb(255, 126, 236);
+    background-color: hsl(322, 80%, 56%);
 }
 
 .box
@@ -179,8 +189,9 @@ h3,h2
 {
     background-color: hsl(322, 100%, 66%);
     color: #fff;
+    transition:all 0.5s;
     padding: 20px 80px 20px;
-    box-shadow: 1px 1px 5px 2px rgb(221, 228, 231);
+    box-shadow: 1px 1px 5px 2px rgb(255, 126, 236);
     font-size: 16px;
 } 
 
